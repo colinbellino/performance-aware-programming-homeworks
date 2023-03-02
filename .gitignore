@@ -1,0 +1,22 @@
+# Build
+builds/*
+!builds/*/.gitkeep
+/*.bin
+/*.bin.dSYM/
+/*.exe
+/*.pdb
+/*.o
+/*.mem
+.idea
+version.txt
+
+# VSCode
+.vscode/settings.json
+.vscode/launch.json
+
+# OSX shit
+.DS_Store
+
+/computer_enhance/
+/*.bin
+/*.asm
